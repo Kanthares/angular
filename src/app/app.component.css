@@ -1,0 +1,18 @@
+.title {
+    color: #fff;
+}
+
+.ada {
+    font-size: 20px;
+    transition: .5s;
+}
+
+.ada:hover {
+    color:  #fff;
+    font-size: 15px;
+}
+
+.menu {
+    font-size: 30px;
+    color: black;
+}

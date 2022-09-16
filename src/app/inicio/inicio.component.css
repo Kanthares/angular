@@ -1,0 +1,18 @@
+.titulo {
+    margin-top: 10rem;
+}
+
+
+.lead-xl {
+    margin-top: 6rem;
+    font-size: 1.75rem;
+    position: absolute;
+}
+
+.apa {
+    position: relative;
+    margin-left: 34rem;
+    bottom: 10rem;
+    border-radius: 20%;
+    
+}

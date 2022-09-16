@@ -1,0 +1,22 @@
+.ada {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.editCard {
+    margin: 50px;
+}
+
+.container-staff {
+    margin: 70px 0px 5px;
+}
+
+.input-staff {
+    margin-left: 15px;
+    width: 75rem;
+}
+
+.car {
+    box-shadow: rgba((14, 30, 37, 0.12), 0px 2px 4px 0px rgba(14, 30, 37, 0.32) 0px 2px 16px 0px);
+}

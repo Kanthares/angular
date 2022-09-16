@@ -1,0 +1,23 @@
+<div class="container-staff">
+  <h2>Harry Potter Staff</h2>
+  <input type="text" class="form-control input-staff" placeholder="Search Staff...">
+  <hr>
+</div>
+
+<div class="ada">
+  <div class="card editCard" style="width: 18rem;" *ngFor= "let post of postsTres">
+    <img [src]="post.image">
+    <div class="card-body">
+      <h5 class="card-title">{{post.name}}</h5>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"><strong> Specie: {{post.species}}</strong> </li>
+      <li class="list-group-item"><strong>Gender: {{post.gender}}</strong> </li>
+      <li class="list-group-item"><strong>House: {{post.house}}</strong></li>
+      <li class="list-group-item"><strong> Age: {{post.age}} </strong></li>
+    </ul>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
+       
